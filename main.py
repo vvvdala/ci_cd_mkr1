@@ -1,5 +1,6 @@
 def filter_text(input_path: str, output_path: str, keyword: str):
     """
+        Filter the text from the input file based on the specified keyword and save the result to the output file.
 
         Parameters:
         input_path (str): The path to the input text file to be processed.
