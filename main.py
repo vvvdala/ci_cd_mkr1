@@ -8,7 +8,7 @@ def filter_text(input_path: str, output_path: str, keyword: str):
 
         Returns:
         None
-        """
+    """
     with open(input_path, 'r', encoding='utf-8') as input_file, open(output_path, 'w', encoding='utf-8') as output_file:
         for line in input_file:
             if keyword in line:
